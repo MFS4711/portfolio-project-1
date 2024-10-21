@@ -23,6 +23,7 @@ h6 {
 
 p {
     color: #191923;
+    margin-bottom: 0;
 }
 
 main {
@@ -48,6 +49,10 @@ main {
 
 .bg-color-white {
     background-color: #fafafa;
+}
+
+.bg-color-blue {
+    background-color: #64C1F7;
 }
 
 /* ------------------------------------------------ Header --------------------------------- */
@@ -123,7 +128,7 @@ main {
 #hero {
     width: 100%;
     height: 90vh;
-    background: url("../images/pexels-m-venter-792254-1659438.jpg") no-repeat 50% 15% /cover;
+    background: url("../images/hero-image/pexels-m-venter-792254-1659438.jpg") no-repeat 50% 15% /cover;
     position: relative;
 }
 
@@ -145,6 +150,27 @@ main {
     font-weight: 500;
     font-size: 1.2rem;
     margin: 20px auto;
+}
+
+/* ------------------------------------------------ Nav Card Section */
+.card-deck {
+    margin: 25px auto;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: #fafafa;
+    margin: 10px auto;
+}
+
+.card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 250px;
+}
+
+.card > a {
+    text-decoration: none;
 }
 
 /* ------------------------------------------------ Media Queries ---------------------------*/
