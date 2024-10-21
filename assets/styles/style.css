@@ -86,6 +86,10 @@ main {
     color: #64C1F7;
 }
 
+.active {
+    text-decoration: underline solid 1px;
+}
+
 /* ------------------------------------------------ Footer --------------------------------- */
 .footer-block {
     margin-bottom: 20px;
