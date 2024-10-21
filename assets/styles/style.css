@@ -50,6 +50,10 @@ main {
     text-align: left;
 }
 
+.content-wrapper {
+    margin: 15px auto;
+}
+
 /* ------------------------------------------------ Colours --------------------------------- */
 .bg-color-green {
     background-color: #B6F7BB;
@@ -61,6 +65,10 @@ main {
 
 .bg-color-blue {
     background-color: #64C1F7;
+}
+
+.bg-color-pink {
+    background-color: #EAAECA;
 }
 
 /* ------------------------------------------------ Header --------------------------------- */
