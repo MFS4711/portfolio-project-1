@@ -3,7 +3,29 @@
 
 /* ------------------------------------------------ General Styles --------------------------------- */
 
+body {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    color: #191923;
+    text-align: center;
+    line-height: 0;
+}
+
+p {
+    margin-bottom: 0;
+    color: #191923;
+    line-height: 0;
+}
 
 /* ------------------------------------------------ Header --------------------------------- */
 
