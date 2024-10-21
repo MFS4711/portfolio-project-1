@@ -42,6 +42,9 @@ main {
     background-color: #B6F7BB;
 }
 
+.bg-color-white {
+    background-color: #fafafa;
+}
 
 /* ------------------------------------------------ Header --------------------------------- */
 
@@ -108,6 +111,29 @@ main {
 .charity-links li a:hover {
     color: #64C1F7;
     text-decoration: none;
+}
+
+/* ------------------------------------------------ Index.html --------------------------------- */
+
+/* ------------------------------------------------ Hero */
+#hero {
+    width: 100%;
+    height: 85vh;
+    background: url("../images/pexels-m-venter-792254-1659438.jpg") no-repeat 50% 15% /cover;
+    position: relative;
+}
+
+#hero > .blockquote {
+    position: absolute;
+    width: 60%;
+    right: 10%;
+    top: 5%;
+    text-align: right;
+    font-weight: 500;
+}
+
+#hero > .blockquote .blockquote-footer {
+    text-align: right;
 }
 
 /* ------------------------------------------------ Media Queries ---------------------------*/
