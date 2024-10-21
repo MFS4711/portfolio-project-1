@@ -92,6 +92,17 @@ main {
     padding-top: 5px;
 }
 
+.charity-links {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.charity-links li a {
+    color: #191923;
+    font-size: 0.9rem;
+}
 
 /* ------------------------------------------------ Media Queries ---------------------------*/
 
@@ -100,7 +111,6 @@ main {
 @media screen and (min-width: 768px) {
 
     /* ------ Nav Flex */
-
     .nav-flex {
         display: flex;
         align-items: center;
