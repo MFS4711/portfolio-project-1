@@ -173,6 +173,10 @@ main {
     text-decoration: none;
 }
 
+.card:hover {
+    border: #1C5E84 solid 5px;
+}
+
 /* ------------------------------------------------ Media Queries ---------------------------*/
 
 /* ------------------ large or landscape phones (576px and up) */
