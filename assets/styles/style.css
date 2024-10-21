@@ -19,10 +19,10 @@ h6 {
     color: #191923;
     text-align: center;
     line-height: 0;
+    margin: 0 auto;
 }
 
 p {
-    margin-bottom: 0;
     color: #191923;
     line-height: 0;
 }
