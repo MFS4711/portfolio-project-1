@@ -42,6 +42,14 @@ main {
     display: none;
 }
 
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
 /* ------------------------------------------------ Colours --------------------------------- */
 .bg-color-green {
     background-color: #B6F7BB;
@@ -98,7 +106,7 @@ main {
 .social-links {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 0;
 }
 
@@ -125,6 +133,8 @@ main {
     color: #64C1F7;
     text-decoration: none;
 }
+
+
 
 /* ------------------------------------------------ Index.html --------------------------------- */
 
