@@ -27,6 +27,18 @@ p {
     line-height: 0;
 }
 
+main {
+    min-height: 90vh;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    margin-top: 20px;
+}
+
 /* ------------------------------------------------ Colours --------------------------------- */
 .bg-color-green {
     background-color: #B6F7BB;
