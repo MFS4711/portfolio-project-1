@@ -79,6 +79,10 @@ main {
     background-color: #EAAECA;
 }
 
+.bg-color-yellow {
+    background-color: #FFD61F;
+}
+
 .content-blue-bg {
     color: #fafafa;
 }
@@ -213,7 +217,7 @@ main {
 
 /* ------------------------------------------------ Upcoming Section */
 .event-info {
-    margin: 25px auto;
+    margin: 20px auto;
 }
 
 .event-info-heading h2 {
