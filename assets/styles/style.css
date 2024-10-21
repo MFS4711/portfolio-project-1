@@ -34,6 +34,11 @@ p {
 
 
 /* ------------------------------------------------ Header --------------------------------- */
+
+.nav-padding {
+    padding: 0;
+}
+
 #logo-1,
 #logo-2 {
     font-size: 1.5rem;
@@ -49,5 +54,30 @@ p {
     color: #1C5E84;
 }
 
+.navbar-nav .nav-link {
+    text-align: center;
+    color: #191923;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #64C1F7;
+}
+
 /* ------------------------------------------------ Footer --------------------------------- */
 
+
+
+/* ------------------------------------------------ Media Queries ---------------------------*/
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* ------ Nav Flex */
+
+    .nav-flex {
+        display: flex;
+        align-items: center;
+    }
+}
