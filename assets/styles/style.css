@@ -242,6 +242,13 @@ main {
         top: 12%;
         font-size: 1.5rem;
     }
+
+    /* ------ Upcoming Section */
+    .event-info-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 /* ---------------------- Large devices (laptops and desktops, 992px and up) */
