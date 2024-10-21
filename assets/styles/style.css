@@ -254,6 +254,10 @@ main {
     text-align: left;
 }
 
+.map-block iframe {
+    width: 100%;
+}
+
 /* ------------------------------------------------ Media Queries ---------------------------*/
 
 /* ------------------ large or landscape phones (576px and up) */
