@@ -51,7 +51,15 @@ main {
 }
 
 .content-wrapper {
-    margin: 15px auto;
+    margin: 20px auto;
+}
+
+.content-wrapper-cards {
+    margin-bottom: 0;
+}
+
+.hr-black {
+    border: #191923 solid 1px;
 }
 
 /* ------------------------------------------------ Colours --------------------------------- */
@@ -69,6 +77,10 @@ main {
 
 .bg-color-pink {
     background-color: #EAAECA;
+}
+
+.content-blue-bg {
+    color: #fafafa;
 }
 
 /* ------------------------------------------------ Header --------------------------------- */
