@@ -104,6 +104,12 @@ main {
     font-size: 0.9rem;
 }
 
+.social-links li a:hover,
+.charity-links li a:hover {
+    color: #64C1F7;
+    text-decoration: none;
+}
+
 /* ------------------------------------------------ Media Queries ---------------------------*/
 
 
