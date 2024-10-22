@@ -139,9 +139,50 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
+
+        <!-- ------------------- Modals for weekly classes -------------- -->
+         <!-- Monday Modal -->
+         <div class="modal fade" id="mondayModal" tabindex="-1" aria-labelledby="mondayModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="mondayModalLabel">Mindful Monday</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col">
+                                        <label for="first-name-monday">First Name</label>
+                                        <input type="text" class="form-control" id="first-name-monday" placeholder="First Name">
+                                    </div>
+                                    <div class="col">
+                                        <label for="last-name-monday">Last Name</label>
+                                        <input type="text" class="form-control" id="last-name-monday" placeholder="Last Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email-event">Email address</label>
+                                <input type="email" class="form-control" id="email-event"
+                                    aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your details with
+                                    anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <small class="form-text text-muted">We'll be in contact shortly</small>
+                            </div>
+                            <button type="submit" class="btn bg-color-yellow">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
     </main>
