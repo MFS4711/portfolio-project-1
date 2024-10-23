@@ -141,6 +141,8 @@ On screens above 1440px the webpage will stop growing and just appear horizontal
 ### Colours
 The colours used during the course of this project for both background and content have been chosen with both accessibility and the target user in mind. Research suggests that this website should have calm, pastel colours to provide a tranquil feeling to a user accessing the website as such blue, green, yellow and pink were the main suggestions. I also understood that there should be a clear contrast between the background and text appearing in front of it as well as there being a consistent colour layout to make it easier for the user to distinguish between different areas of the page. On this basis, the colours of this project were chosen and I will explain below how and why each colour was used.
 
+![Colour Pallet](assets/images/readme-images/colour-pallete.png "Colour pallete")
+
 ##### Light Green - #B6F7BB
 This was used for the background colour of the header and footer as it was considered a calming colour which allowed the content above to be viewed better.
 
