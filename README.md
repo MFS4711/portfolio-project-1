@@ -169,8 +169,6 @@ There were two fonts used for this project, Roboto and Lato. Lato was used for t
 
 
 ### Accessibility Considerations
-Discuss how accessibility guidelines were adhered to, including colour contrast and alt text for images.  
-**Guidance:** Outline how you've incorporated accessibility into your design, ensuring that your project adheres to guidelines such as WCAG.
 
 #### Colour Contrast
 I ensured to adhere to accessibility guidelines by using the combinations of colours I picked. I used [Coolers Contrast Checker](https://coolors.co/contrast-checker/112a46-acc8e5) to examine the colours used during the project. A change in the logo was made after completing this check as the initial colour used didn't pass the contrast check. Below you will find the results of the various contrast checks I completed where I compared the background colour with the foreground content:
@@ -186,6 +184,13 @@ I ensured to adhere to accessibility guidelines by using the combinations of col
 ![black text - yellow background](assets/images/readme-images/black-yellow-bg.png "black text - yellow background")
 
 ![black text - pink background](assets/images/readme-images/black-pink-bg.png "black text - pink background")
+
+#### Screen Reader Accessibility
+I have ensured to include the 'alt' attribute for all images used to ensure that a message appears if the image doesn't load and also as an aid to screen readers. I have ensured that these messages fully depict what the image is showing.
+
+I have also ensured to add aria-labels and accessible classes for screen reader usage when using any buttons or icons. These have been used with a message to indicate what that icon or button would do if you were to click it. 
+
+Furthermore, I have ensured each section of the page has a heading and the hierachhy of significance is clear and logical. Where I do not intend for the heading to be visible, I have created a hidden-heading class which will be accessible for screen readers and provides a semantic way of indicating the start of a new section.
 
 ## Features Implementation
 
@@ -355,6 +360,16 @@ Before deploying the project, I ensured to code a navbar to be able to see if th
 The deployment process involved publishing my main branch and root directory which took a few minutes before completing.
 The deployed project updated as required after each git push and few, if any, issues were encountered.
 
+### File Structure
+
+The root directory is structured in a way that is clear an organised. This is separated into an assets folder and the individual html files, as well as this README.md file. 
+
+In the assets folder, the folder has been split into clear, logical folders, each enclosing images to be applied to the location of the folder name. This is particularly important as there are a large number of images used in the project and so having a single image file would make it difficult to read. Also, in this way, the relative image file paths, included in the html, can be followed easily. 
+
+Further to this, as per convention, in the assets folder, along with the image folder, there is a styles folder, which contains all css stylesheets used. In this project there was only one used, however, if there were more these would be easily found here.
+
+This file structure allows for easy navigation and reading for anyone attempting to read the code. 
+
 ## Reflection on Development Process
 
 ### Final Thoughts
@@ -373,6 +388,10 @@ To complete this project, I reflected and reviewed some previous walkthrough pro
 - [Google images](https://www.google.com/search?sca_esv=945b0f90c133864c&q=images&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J_86uWOeqwdnV0yaSF-x2jon2iao6KWCaVjfn7ahz_sfz4kQc-hbvsXJ2gNx0RnV2nl305mvoek0YK94ylYY2a4b3Q-OEwW5lKppi2wujywZWmdIJVp8wrsv_g-eh5sWEDXx8JNpgmjsiKj2mZMvftPlZJZz&sa=X&ved=2ahUKEwjS5YTO9qOJAxV9WkEAHXerGu4QtKgLegQIEBAB&biw=1536&bih=695&dpr=1.25) was used for some of the card images
 - [pexels](https://www.pexels.com/) was used as the source of the majority of images used on the page
 - [unsplash](https://unsplash.com/) was used for the arts and crafts photo on the get-involved page
+
+### Icon / styles
+- [Bootstrap v4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+- [Font Awesome](https://fontawesome.com/)
 
 ## Future Improvements
 
